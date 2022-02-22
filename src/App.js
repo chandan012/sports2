@@ -1,12 +1,16 @@
 import './App.css';
-import bg1 from "./imgs/bg1.jpg"
+import Home from "./Components/Home/home"
+import Footer from "./Components/Home/Footer/footer"
 
 function App() {
   return (
-    <div className="bghome">
-      <img src={bg1} alt=" "></img>
+    <div>
+      <Home/>
+      <Footer/>
     </div>
   );
 }
 
 export default App;
+
+

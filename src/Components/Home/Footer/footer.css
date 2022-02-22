@@ -1,0 +1,157 @@
+/* @media screen (max-width="1200"){
+    displ
+} */
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.footer{
+    height: 40vh;
+    position: relative;
+    background: rgb(97, 97, 116);
+    box-shadow: 15px 15px 50px ;
+    width: 100%;
+    /* background: url('https://www.kidslifestudio.com/wp-content/uploads/footer-background.jpg') no-repeat center center; */
+}
+
+/* .icons{
+    text-align: center;
+    margin: auto;
+}
+.icons img{
+    margin: 0px 20px;
+    padding: 20px 7px;
+    width: 30px;
+    height: 30px;
+} */
+
+.icons{
+    height: 100px;
+}
+.bottom{
+    text-align: center;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding:15px;
+}
+.bottom a{
+color: rgb(155, 148, 218);
+}
+.box{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: -3px;
+}
+.info1 h2,.info2 h2,.info3 h2{
+    padding-bottom: 14px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.info1,.info2,.info3{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    width: 33%;
+    height: 200px;
+    width: 300px;
+    padding: 13px;
+   text-align: center;
+   margin-left: 2%;
+   margin-right: 3%;
+}
+
+
+.info2,.info3{
+   line-height: 26px;
+
+}
+.info3 hr{
+    margin-bottom:10px;
+}
+.info2 hr{
+    width: 50%;
+    margin:2px auto;
+}
+.info2 a{
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8rem;
+    position: absolute;
+    top: 27%;
+    left: 93%;
+    transform: translate(-30%, -30%);
+  }
+  
+  ul li {
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  ul li a {
+    width: 50%;
+    height:0;
+    padding-bottom: 50%;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    margin: 1px 22px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border: 4px solid rgb(255, 255, 255);
+    z-index: 1;
+  }
+  
+  ul li a .icon {
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+  }
+  
+  ul li a:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
+  }
+  
+  ul li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+  }
+  
+  ul li a:hover:before {
+    top: 0;
+  }
+  
+  ul li:nth-child(1) a:before{
+    background: #3b5999;
+  }
+  
+  ul li:nth-child(2) a:before{
+    background: #55acee;
+  }
+  
+  ul li:nth-child(3) a:before {
+    background: #0077b5;
+  }
+  
+  ul li:nth-child(4) a:before {
+    background: #e023a7;
+    
+  }
