@@ -5,9 +5,10 @@ import "./home.css"
 
 function home() {
   return (
-    <div className="bghome">
-      <img src={bg1} alt=" "></img>
+    <div className="bghome"  style={{ backgroundImage: `url(${bg1})` }}>
+      {/* <img src={bg1} alt=" "></img> */}
     </div>
+    
   )
 }
 

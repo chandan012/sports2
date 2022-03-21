@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+   
+}
+
+
+
+html {
+  font-size: 62.5%;
+}
+
+.nav-a {
+  font-family: ethnocentric;
+  font-weight: 600;
+  font-size: 20px;
+  background: -webkit-linear-gradient(rgb(97, 26, 163), rgb(217, 238, 240));
+  background-clip: text;
+  color: white;
+}
+
+.nav-li {
+  list-style: none;
+}
+
+
+
+.main-nav {
+  margin-left: 250px;
+  margin-top: 50px;
+  background-color: #ffffff10;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  width: 100%;
+  height: 7rem;
+  display: grid;
+  grid-template-columns: 10rem 0.5fr 2fr 10rem;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+}
+
+
+
+.menu {
+
+  grid-column: 1/4;
+}
+
+.menu .nav-ul {
+  height: 7rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo h2 {
+  font-size:3rem;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(rgb(234, 231, 236), rgb(217, 238, 240));;
+  background-clip: text;
+  color: white;
+  font-family: ethnocentric;
+  font-weight: 100;
+}
+
+
+
+.menu .nav-ul .nav-li {
+ 
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.menu .nav-ul .nav-li .nav-a {
+  margin-bottom: 50px;
+  background:  rgb(235, 238, 238);
+  background-clip: text;
+  color: transparent;
+  transition: 0.5s;
+}
+.menu .nav-ul .nav-li:hover > .nav-a {
+  transform-origin: left;
+  color: rgb(245, 245, 245);
+  text-decoration: underline;
+  transition: 0.5s;
+}
