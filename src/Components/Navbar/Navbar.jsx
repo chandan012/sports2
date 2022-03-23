@@ -6,7 +6,6 @@ const Navbar = () => {
     return (
         <>
         <nav className="main-nav">
-          
             <div className="menu">
                 <ul className='nav-ul'>
                     <li className='nav-li'>
@@ -16,7 +15,7 @@ const Navbar = () => {
                     </li>
                     <li className='nav-li'>
                    
-                    {/* <Link className="Livescore.js">Livescolre</Link> */}
+                    <Link className="Livescore.js">Livescore</Link>
                     
                     </li>
 
