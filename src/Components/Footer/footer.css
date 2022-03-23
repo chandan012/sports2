@@ -34,7 +34,9 @@
     text-align: center;
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    padding:15px;
+    padding: 10px;
+    margin-top: 52px;
+    font-size: 18px;
 }
 .bottom a{
 color: rgb(155, 148, 218);
@@ -53,7 +55,7 @@ color: rgb(155, 148, 218);
 .info1,.info2,.info3{
     display: flex;
     flex-direction: column;
-    font-size: 1rem;
+    font-size: 1.5rem;
     width: 33%;
     height: 200px;
     width: 300px;
@@ -63,9 +65,11 @@ color: rgb(155, 148, 218);
    margin-right: 3%;
 }
 
-
+.info3{
+  font-size: 1.3rem;
+}
 .info2,.info3{
-   line-height: 26px;
+  line-height: 23px;
 
 }
 .info3 hr{
@@ -76,7 +80,8 @@ color: rgb(155, 148, 218);
     margin:2px auto;
 }
 .info2 a{
-    text-decoration: none;
+  color:white;
+  text-decoration: none;
 }
 
 ul {
