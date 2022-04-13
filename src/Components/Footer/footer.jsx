@@ -11,19 +11,19 @@ function footer() {
                     <h2>About Us</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.Sequi reprehenderit itaque voluptates
                         reiciendis enim, veniam <br/>cupiditate, deserunt, velit facere beatae impedit perspiciatis ipsum
-                        nam quisquam fugiat repellendus dolorum commodi. Quas?</p>
+                        nam quisquam fugiat.</p>
                 </div>
                 <div className="info2">
                     <h2>Quick Links</h2>
-                    <a href="#">Home</a>
+                    <a className='footer-a' href="#">Home</a>
                     <hr/>
-                    <a href="#">About</a>
+                    <a className='footer-a' href="#">About</a>
                     <hr/>
-                    <a href="#">Upcoming Events</a>
+                    <a className='footer-a' href="#">Upcoming Events</a>
                     <hr/>
-                    <a href="#">Matches</a>
+                    <a className='footer-a' href="#">Matches</a>
                     <hr/>
-                    <a href="#">Contact Us</a>
+                    <a className='footer-a' href="#">Contact Us</a>
                     <hr/>
                 </div>
                 <div className="info3">
@@ -42,21 +42,21 @@ function footer() {
             <!-- <a href="#"><img src="./img/LinkedIn2.png" alt="FACEBOOK" srcset=""></a> -->
             <!-- </div> --> */}
             <ul className='social-links'>
-                <li >
-                  <a href="#">
+                <li className='footer-li'>
+                  <a className='footer-a' href="#">
                     <i className="fab fa-facebook-f icon">F</i></a>
                 </li>
-                <li>
-                  <a href="#"><i className="fab fa-twitter icon">T</i></a>
+                <li className='footer-li'>
+                  <a className='footer-a' href="#"><i className="fab fa-twitter icon">T</i></a>
                 </li>
-                <li>
-                  <a href="#"><i className="fab fa-linkedin-in icon">L</i></a></li>
-                <li>
-                  <a href="#"><i className="fab fa-instagram icon">I</i></a></li>
+                <li className='footer-li'>
+                  <a className='footer-a' href="#"><i className="fab fa-linkedin-in icon">L</i></a></li>
+                <li className='footer-li'>
+                  <a className='footer-a' href="#"><i className="fab fa-instagram icon">I</i></a></li>
             </ul>
-            <div className="bottom">
+            {/* <div className="bottom">
                 <p>Copyright © 2022.sportsweb.co. All rights reserved. Please read <a href="#"> Privacy Policy</a></p>
-            </div>
+            </div> */}
         </div>
 
     </div>
