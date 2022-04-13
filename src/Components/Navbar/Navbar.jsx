@@ -10,39 +10,16 @@ const Navbar = () => {
             <div className="menu">
                 <ul className='nav-ul'>
                     <li className='nav-li'>
-                    
-                    <Link className='nav-a' to="/">Home</Link> 
-                   
-                    </li>
+                    <Link className='nav-a' to="/">Home</Link></li>
                     <li className='nav-li'>
-                   
-                    <Link className='nav-a' to="/Livescore">Livescore</Link>
-                    
-                    </li>
-
+                    <Link className='nav-a' to="/Livescore">Livescore</Link></li>
                     <li className='nav-li'>
-                   
-                    <Link className='nav-a' to="/Schedule">Schedule</Link>
-                   
-                    </li>
-                
+                    <Link className='nav-a' to="/Schedule">Schedule</Link></li>
                     <li className='nav-li'>
-                 
-                    <Link className='nav-a' to="/Achievement">Achievements</Link>
-                   
-                    </li>
-                    
-                    
-
+                    <Link className='nav-a' to="/Achievement">Achievements</Link></li>
                     <li className='nav-li'>
-                 
-                    <Link className='nav-a' to="/Login">Login</Link>
-                   
-                    </li>
-
-                    
+                    <Link className='nav-a' to="/Login">Login</Link></li>
                 </ul>
-
             </div>
         </nav>
         </>
